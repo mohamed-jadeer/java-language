@@ -42,7 +42,7 @@ class MultipleClass {
         //Fish fsh1 = (Fish)new Organism();
         Fishs fsh1 = (Fishs)org1;
         fsh1.print();
-        org1.fishMethod();
+        ((Fishs)org1).fishMethod();
         //fsh.print();
     }
 }

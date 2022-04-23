@@ -24,8 +24,9 @@ public class SyntaxChecks {
 	}
 }
 
+/*
 private class Test{
 	void display(){
 		System.out.println("Hello");
 	}
-}
+}*/
