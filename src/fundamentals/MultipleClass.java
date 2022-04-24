@@ -3,6 +3,9 @@
  * Fishs
  * Organisms
  * MultipleClass
+ *
+ * compile time check is against reference type, but actual method invocation is against run time object
+ *
  */
 
 package fundamentals;
@@ -42,7 +45,8 @@ class MultipleClass {
         //Fish fsh1 = (Fish)new Organism();
         Fishs fsh1 = (Fishs)org1;
         fsh1.print();
-        ((Fishs)org1).fishMethod();
+        //org1.fishMethod(); // compilation error as fishMethod is not a method in Organisms
+        fsh1.fishMethod();
         //fsh.print();
     }
 }

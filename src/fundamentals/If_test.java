@@ -1,3 +1,7 @@
+/**
+ * Basic if conditional check
+ */
+
 package fundamentals;
 
 import java.util.Scanner;

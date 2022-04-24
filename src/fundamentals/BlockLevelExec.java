@@ -1,5 +1,18 @@
 /*
  * Order of execution of blocks during an object initialization
+ * First call
+Parent Static
+Child static
+Parent Instance
+Parent Constructor
+Child Instance
+Child Constructor
+---------------------------------------
+* Subsequent calls
+Parent Instance
+Parent Constructor
+Child Instance
+Child Constructor
  */
 
 package fundamentals;

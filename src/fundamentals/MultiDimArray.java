@@ -1,6 +1,7 @@
 /*
  * Only first index is required to make multidimensional array declaration valid 
  * Observation on calling length field on different levels of a multi dimensional array
+ * Arrays are objects of Special Type of class
  */
 
 package fundamentals;
@@ -14,10 +15,10 @@ public class MultiDimArray {
 		System.out.println(newarr.length);
 		System.out.println(newarr[1].length);
 		System.out.println(newarr[0][1].length);
-		System.out.println("arr:" + arr);
-		System.out.println("newarr:" + newarr);
-		System.out.println("arr1:" + arr1);
-		MultiDimArray md = new MultiDimArray();
+		System.out.println("arr:" + arr); // arr:[[[I@1540e19d
+		System.out.println("newarr:" + newarr); // newarr:[[[I@677327b6
+		System.out.println("arr1:" + arr1); // arr1:[I@14ae5a5
+		MultiDimArray md = new MultiDimArray(); // fundamentals.MultiDimArray@7f31245a
 		System.out.println("----------------------------");
 		System.out.println(md);
 	}
